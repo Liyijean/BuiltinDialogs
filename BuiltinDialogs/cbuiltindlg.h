@@ -23,7 +23,9 @@ private:
     QPushButton  *pagePushBtn;
     QPushButton  *progressPushBtn;
     QPushButton  *printPushBtn;
-private slots:
-    //void doPushBtn();
+    QPushButton  *textColorPushBtn;
+private slots://槽函數(slot)宣告
+    void doPushBtn();
+    void doTextcolor(); // 槽函數
 };
 #endif // CBUILTINDLG_H
