@@ -2,6 +2,7 @@
 #define CBUILTINDLG_H
 
 #include <QDialog>
+#include <QtWidgets>
 #include <QPushButton>
 #include <QTextEdit>
 class CBuiltinDlg : public QDialog
@@ -13,7 +14,7 @@ public:
     ~CBuiltinDlg();
 
 private:
-    QTextEdit    *displatTextEdit;
+    QTextEdit    *displayTextEdit;
     QPushButton  *colorPushBtn;
     QPushButton  *errorPushBtn;
     QPushButton  *filePushBtn;
